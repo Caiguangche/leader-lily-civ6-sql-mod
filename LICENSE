@@ -1,19 +1,19 @@
 Code and Documentation License Scope
 ====================================
 
-The MIT License below applies only to the original SQL migration, Python
-validation tooling, and documentation introduced by this refactoring in:
+The MIT License below applies only to the project-specific SQL modules, Python
+validation tooling, and documentation contained in:
 
 - Gameplay/SQL/
 - tools/
 - docs/
 - README.md
 
-It does not grant rights to legacy Civilization VI mod source, Firaxis or
+It does not grant rights to Civilization VI mod source owned by third parties, Firaxis or
 Ender Lilies intellectual property, artwork, textures, audio, game assets, or
 other third-party material. Those materials remain subject to their respective
-owners' rights and licenses. Ignored media binaries are not part of the public
-source release.
+owners' rights and licenses. Excluded media binaries are not part of this
+source distribution.
 
 MIT License
 

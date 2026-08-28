@@ -1,4 +1,4 @@
-# Migration Validation Report
+# SQL Data Validation Report
 
 Validation date: 2026-08-28  
 Validator: `tools/validate_equivalence.py` (Python standard library + SQLite in-memory databases)
@@ -26,9 +26,9 @@ Additional project checks:
 - developer validation/maintenance SQL is excluded from runtime actions: PASS
 - original Config/Icon/Color/Text/Art/Audio actions remain unchanged: PASS
 
-## Equivalence method
+## Validation method
 
-For each source/target pair, the validator:
+For each data module, the validator:
 
 1. parses all XML `<Table><Row ... /></Table>` records, including child-element field syntax;
 2. infers an isolated fixture schema for the module;

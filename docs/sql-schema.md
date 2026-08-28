@@ -141,4 +141,4 @@ DLC SQL 没有合并进核心文件，因为它们依赖不同 schema 内容：
 - District / Unit / Building replacement 完整性；
 - `TraitModifiers` 指向不存在 Modifier 的孤立引用。
 
-XML→SQL 的逐模块数据等价由 `tools/validate_equivalence.py` 自动检查。
+运行时 SQL 的逐模块数据一致性由 `tools/validate_equivalence.py` 自动检查。
