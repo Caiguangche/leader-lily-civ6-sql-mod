@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_CNS_Text -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/17/2024 7:25:43 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_NAME" Language="ja_JP">
+			<Text>果ての国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_DESCRIPTION" Language="ja_JP">
+			<Text>果ての国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_ADJECTIVE" Language="ja_JP">
+			<Text>果ての国</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_S_END_NAME" Language="ja_JP">
+			<Text>穢れ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_S_END_DESCRIPTION" Language="ja_JP">
+    		<Text>ユニットはダメージを受けても[ICON_STRENGTH]戦闘力が低下しません。各都市はランダムに1つの[ICON_TECHBOOSTED]ユーリカと[ICON_CIVICBOOSTED]啓発を提供します。</Text>
+        </Row>
+		<Row Tag="LOC_CITY_NAME_WHITE_PARISH" Language="ja_JP">
+			<Text>白の教区</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLIFFSIDE_HAMLET" Language="ja_JP">
+			<Text>崖の村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WITCH_S_THICKET" Language="ja_JP">
+			<Text>魔女の森</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CATACOMBS" Language="ja_JP">
+			<Text>力タコンベ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TWIN_SPIRES" Language="ja_JP">
+			<Text>双子城砦</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STOCKADE" Language="ja_JP">
+			<Text>地下牢狱</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUINED_CASTLE" Language="ja_JP">
+			<Text>果ての王城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VERBOTEN_DOMAIN" Language="ja_JP">
+			<Text>禁じられた領域</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABYSS" Language="ja_JP">
+			<Text>深淵</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAND_S_EDGE" Language="ja_JP">
+			<Text>边境</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLIGHTED_HEART" Language="ja_JP">
+			<Text>荒廃した心臓</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_SIEGRID" Language="ja_JP">
+			<Text>シーグリッド</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_GERROD" Language="ja_JP">
+			<Text>ゲルロッド</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_SILVA" Language="ja_JP">
+    		<Text>シルヴァ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_JULIUS" Language="ja_JP">
+			<Text>ユリウス</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_ULV" Language="ja_JP">
+    		<Text>ウルヴ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_ELEINE" Language="ja_JP">
+			<Text>イレイェン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_HOENIR" Language="ja_JP">
+    		<Text>フェニル</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_FADEN" Language="ja_JP">
+    		<Text>フェイデン</Text>
+		</Row>
+		<!-- 领袖 -->
+		<Row Tag="LOC_LEADER_LILY_NAME" Language="ja_JP">
+			<Text>Lily</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LILY_NAME" Language="ja_JP">
+			<Text>白巫女</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LILY_DESCRIPTION" Language="ja_JP">
+    		<Text>ユニットは自動的にHPを回復し、+5ポイントのボーナスが付与されます。敵ユニットを捕獲する可能性があります。</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_LILY" Language="ja_JP">
+			<Text>
+				崩壊した世界の中で、彼女の言葉が響き渡る。「私のところに来てくれてありがとう。」
+			</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LILY_QUOTE" Language="ja_JP">
+    		<Text>私のところに来てくれてありがとう。</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LILY_NAME" Language="ja_JP">
+			<Text>同盟</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LILY_DESCRIPTION" Language="ja_JP">
+			<Text>長期的な同盟関係を築くことを好む文明。他の友人や同盟を非難または攻撃する文明を嫌う。</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY" Language="ja_JP">
+			<Text>（あなたは私の友達です）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY" Language="ja_JP">
+			<Text>（私の友人と仲良くしてください）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LILY_DECLARED_FRIEND" Language="ja_JP">
+			<Text>リリーは友好を宣言するのが好き</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LILY_DENOUNCED_FRIEND" Language="ja_JP">
+			<Text>リリーは彼女の友人を非難するのが嫌い</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>こんにちは。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>敵になってしまい残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>あなたに宣戦布告します。</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>はい。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>今はまだその時ではありません。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>友達になれますか？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>ありがとう。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>残念です。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>負けた...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>辺境の国へようこそ。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>すみません、今は客を迎えるのは難しいです。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>私の代表団があなたに贈り物を持ってきました。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>とても怒っています！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>あなたが嫌いです！[NEWLINE]（非難します）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>お会いできて嬉しいです。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>そちらの様子はどうですか？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>おはようございます。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>よくやった。</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY" Language="ja_JP">
+			<Text>（リリーの好感度が上がった）</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>あなたの行動は嫌です……</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY" Language="ja_JP">
+			<Text>（リリーの好感度が下がった）</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>私たちは同盟になりました。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>この無意味な戦争を終わらせましょう。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>私は戦争を続けます。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LILY_ANY" Language="ja_JP">
+			<Text>この無意味な戦争を終わらせましょう。</Text>
+		</Row>
+		<!-- 区域 -->
+		<Row Tag="LOC_DISTRICT_WHITE_HOLY_SITE_NAME" Language="ja_JP">
+			<Text>白聖地</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION" Language="ja_JP">
+			<Text>
+				果ての国の特色宗教活動エリア。聖地に代わって建設され、建設コストがより低くなります。
+				[NEWLINE]すべてのユニットに+1[ICON_STRENGTH]戦闘力が付与され、最大で10[ICON_STRENGTH]までです。各人口ごとに+0.5[Icon_Faith]信仰が得られます。鉱山+1[Icon_FOOD]食料。
+			</Text>
+		</Row>
+		<Replace Tag="LOC_MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY" Language="ja_JP">
+			<Text>+{Property}[ICON_STRENGTH]が白聖地からの補正</Text>
+		</Replace>
+		<!-- 建筑 -->
+		<Row Tag="LOC_BUILDING_WHITE_PRUESTESS_STATUE_NAME" Language="ja_JP">
+			<Text>白の巫女像</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WHITE_PRUESTESS_STATUE_DESCRIPTION" Language="ja_JP">
+			<Text>
+				果ての国の特色建築物で、寺院に代わります。
+				[NEWLINE]すべての産出が+2されます（[Icon_CULTURE]、[Icon_FOOD]、[Icon_PRODUCTION]、[Icon_SCIENCE]、[Icon_Faith]、[Icon_GOLD]）。
+				[NEWLINE]その他の市内エリア（[ICON_DISTRICT_CAMPUS]、[ICON_DISTRICT_THEATER]、[ICON_DISTRICT_INDUSTRIAL_ZONE]、[ICON_DISTRICT_COMMERCIAL_HUB]、[ICON_DISTRICT_HARBOR]）は、都市中心に対して+2の対応する出力（[Icon_SCIENCE]、[Icon_CULTURE]、[Icon_PRODUCTION]、[Icon_GOLD]）を提供します。
+			</Text>
+		</Row>
+		<!-- 单位 -->
+		<Row Tag="LOC_UNIT_UMBRAL_KNIGHT_NAME" Language="ja_JP">
+			<Text>黑騎士</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UMBRAL_KNIGHT_DESCRIPTION" Language="ja_JP">
+    		<Text>
+				リリーの守護者で、剣客の代わりに配置されます。40[ICON_STRENGTH]の戦闘力を持ち、地形や地形の[ICON_MOVEMENT]移動ペナルティを無視します。
+			</Text>
+		</Row>
+		<!--   万の神殿  -->
+		<Row Tag="LOC_BELIEF_PRIESTESS_WISH_NAME" Language="ja_JP">
+			<Text>白巫女の願い</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_PRIESTESS_WISH_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットはHPを5ポイント回復します。都市の忠誠度は減少しません。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

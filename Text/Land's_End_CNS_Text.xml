@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_CNS_Text -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/17/2024 7:25:43 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_NAME" Language="zh_Hans_CN">
+			<Text>边陲之国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>边陲之国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>边陲之国</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_S_END_NAME" Language="zh_Hans_CN">
+			<Text>污秽</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_S_END_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位受到伤害[ICON_STRENGTH]战斗力不会减少；每座城市会提供随机的一项[ICON_TECHBOOSTED]尤里卡和[ICON_CIVICBOOSTED]鼓舞。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHITE_PARISH" Language="zh_Hans_CN">
+			<Text>白教区</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLIFFSIDE_HAMLET" Language="zh_Hans_CN">
+			<Text>悬崖村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WITCH_S_THICKET" Language="zh_Hans_CN">
+			<Text>魔女森林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CATACOMBS" Language="zh_Hans_CN">
+			<Text>地下墓穴</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TWIN_SPIRES" Language="zh_Hans_CN">
+			<Text>双生堡垒</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STOCKADE" Language="zh_Hans_CN">
+			<Text>地牢</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUINED_CASTLE" Language="zh_Hans_CN">
+			<Text>都城废墟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VERBOTEN_DOMAIN" Language="zh_Hans_CN">
+			<Text>禁区</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABYSS" Language="zh_Hans_CN">
+			<Text>深渊</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAND_S_EDGE" Language="zh_Hans_CN">
+			<Text>尽头之地</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLIGHTED_HEART" Language="zh_Hans_CN">
+			<Text>污秽之中</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CELLAR" Language="zh_Hans_CN">
+			<Text>地下室</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CATHEDRAL_CLOISTER" Language="zh_Hans_CN">
+			<Text>圣堂走廊</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAINT_S_PASSAGE" Language="zh_Hans_CN">
+			<Text>圣者之路</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROSSROADS" Language="zh_Hans_CN">
+			<Text>分岔路</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRYAD_LAKE" Language="zh_Hans_CN">
+			<Text>树妖之湖</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COLLAPSED_SHACK" Language="zh_Hans_CN">
+			<Text>倒塌小屋</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIDGEHEAD" Language="zh_Hans_CN">
+			<Text>桥头</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WITCH_S_HERMITAGE" Language="zh_Hans_CN">
+			<Text>魔女的房间</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COVEN_HALLS" Language="zh_Hans_CN">
+			<Text>魔术协会走廊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_SIEGRID" Language="zh_Hans_CN">
+			<Text>西丽德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_GERROD" Language="zh_Hans_CN">
+			<Text>格落特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_SILVA" Language="zh_Hans_CN">
+			<Text>西丽亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_JULIUS" Language="zh_Hans_CN">
+			<Text>尤利乌斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_ULV" Language="zh_Hans_CN">
+			<Text>狼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_ELEINE" Language="zh_Hans_CN">
+			<Text>伊莱恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_HOENIR" Language="zh_Hans_CN">
+			<Text>海尼尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_FADEN" Language="zh_Hans_CN">
+			<Text>法腾</Text>
+		</Row>
+		<!-- 领袖 -->
+		<Row Tag="LOC_LEADER_LILY_NAME" Language="zh_Hans_CN">
+			<Text>莉莉</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LILY_NAME" Language="zh_Hans_CN">
+			<Text>白巫女</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LILY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位自动恢复生命值，并且+5点；有概率俘获敌方单位。</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_LILY" Language="zh_Hans_CN">
+			<Text>
+				在崩溃的世界里，少女说了，“感谢你一直陪伴着我”
+			</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LILY_QUOTE" Language="zh_Hans_CN">
+			<Text>感谢你一直陪伴着我</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LILY_NAME" Language="zh_Hans_CN">
+			<Text>同盟</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LILY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢愿意构建长期联盟关系的文明。讨厌谴责或进攻自己朋友或盟友的文明。</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您是我的朋友）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（请和我的朋友好好相处）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LILY_DECLARED_FRIEND" Language="zh_Hans_CN">
+			<Text>莉莉喜欢宣布友好</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LILY_DENOUNCED_FRIEND" Language="zh_Hans_CN">
+			<Text>莉莉讨厌您谴责她的朋友</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>你好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>很可惜我们成为敌人。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>我向你宣战。</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>现在还不是时候。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>可以和我成为朋友吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>谢谢。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>真可惜。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>我输了...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>欢迎来到边陲之国。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>抱歉，现在不方便接待客人。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>我的代表团给你带了礼物。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>我很生气！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>我讨厌你！[NEWLINE]（谴责你）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>很高兴遇见你。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>你们那边的情况如何？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>早上好。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>你做了好事。</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（莉莉对您的好感增加了）</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>你的行为很可恶……</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（莉莉对您的好感减少了）</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>我们成为盟友了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>让我们停止无意义的战争。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>我还要继续战争。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LILY_ANY" Language="zh_Hans_CN">
+			<Text>让我们停止无意义的战争。</Text>
+		</Row>
+		<!-- 区域 -->
+		<Row Tag="LOC_DISTRICT_WHITE_HOLY_SITE_NAME" Language="zh_Hans_CN">
+			<Text>白圣地</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				边陲之国特色宗教活动区域。取代圣地，建造费用更低。
+				[NEWLINE]为所有单位+1[ICON_STRENGTH]战斗力,最多为10[ICON_STRENGTH]。每个人口+0.5[Icon_Faith]信仰值。矿山+1[Icon_FOOD]食物。
+			</Text>
+		</Row>
+		<Replace Tag="LOC_MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY" Language="zh_Hans_CN">
+			<Text>+{Property}[ICON_STRENGTH]来自白圣地</Text>
+		</Replace>
+		<!-- 建筑 -->
+		<Row Tag="LOC_BUILDING_WHITE_PRUESTESS_STATUE_NAME" Language="zh_Hans_CN">
+			<Text>白巫女的雕像</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WHITE_PRUESTESS_STATUE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				边陲之国特色建筑，取代寺庙。
+				[NEWLINE]所有产出+2（[Icon_CULTURE]、[Icon_FOOD]、[Icon_PRODUCTION]、[Icon_SCIENCE]、[Icon_Faith]、[Icon_GOLD]）。
+				[NEWLINE]城市的其他区域（[ICON_DISTRICT_CAMPUS]、[ICON_DISTRICT_THEATER]、[ICON_DISTRICT_INDUSTRIAL_ZONE]、[ICON_DISTRICT_COMMERCIAL_HUB]、[ICON_DISTRICT_HARBOR]），为市中心提供+2相应产出（[Icon_SCIENCE]、[Icon_CULTURE]、[Icon_PRODUCTION]、[Icon_GOLD]）。
+			</Text>
+		</Row>
+		<!-- 单位 -->
+		<Row Tag="LOC_UNIT_UMBRAL_KNIGHT_NAME" Language="zh_Hans_CN">
+			<Text>黑色骑士</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UMBRAL_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				莉莉的守护者，取代剑客。拥有40[ICON_STRENGTH]战斗力。无视地形地貌的[ICON_MOVEMENT]移动力减益。
+			</Text>
+		</Row>
+		<!--   万神殿 、宗教 -->
+		<Row Tag="LOC_BELIEF_PRIESTESS_WISH_NAME" Language="zh_Hans_CN">
+			<Text>白巫女的祈望</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_PRIESTESS_WISH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位+5点生命值恢复。城市的忠诚度不会减少。</Text>
+		</Row>
+		<Replace Tag="LOC_RELIGION_WHITE" Language="zh_Hans_CN">
+			<Text>白教</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WHITE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>有一天，在白雪覆盖的边陲之地出现了堕秽之徒，给边陲之国带来污秽之灾难。污秽使人疯狂，把人变成怪物。恐怖的污秽，据说来自这块土地原住的古老民族，生于他们的怨念。污秽会传染他人，受污秽感染的人被称为秽鬼。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WHITE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>守护国家的士兵奋勇抵抗秽鬼，但秽鬼无论被击倒多少次都会再次升起，根本杀不死。成功拯救国家的是一名金发的白衣女子，她的祈祷净化了污秽，阻止了秽鬼的入侵，人们把神圣的女子称作“白巫女”。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WHITE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				目睹净化奇迹的人把希望全寄托于白巫女，聚在一起使白教信仰渐渐地传播开来。白教之人不敬拜什么神明，只听从白巫女的教诲，遵循抵制污秽之道，平日过着平静的生活，祈祷受净化的人能够安息。
+			</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

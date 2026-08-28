@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_District -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/15/2024 8:52:50 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_WHITE_HOLY_SITE" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_DISTRICT_WHITE_HOLY_SITE" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_DISTRICT_WHITE_HOLY_SITE" Name="LOC_TRAIT_DISTRICT_WHITE_HOLY_SITE_NAME" Description="LOC_TRAIT_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION"/>
+	</Traits>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_WHITE_HOLY_SITE" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" Name="LOC_DISTRICT_WHITE_HOLY_SITE_NAME" Description="LOC_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_FAITH" PlunderAmount="25" AdvisorType="ADVISOR_RELIGIOUS" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2" TraitType="TRAIT_DISTRICT_WHITE_HOLY_SITE"/>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="NaturalWonder_Faith"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Mountain_Faith1"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Mountain_Faith2"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Mountain_Faith3"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Mountain_Faith4"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Mountain_Faith5"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Forest_Faith"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="District_Faith"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_WHITE_HOLY_SITE</DistrictType>
+			<ModifierId>MODIFIER_DISTRICT_WHITE_HOLY_SITE_UNIT_ADJUST_PROPERTY</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_DISTRICT_WHITE_HOLY_SITE_UNIT_ADJUST_PROPERTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PROPERTY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DISTRICT_WHITE_HOLY_SITE_PER_POPULATION_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>REQSET_LE_CITY_HAS_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LE_MINE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQSET_LE_CITY_HAS_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LE_MINE_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_LE_HAS_MINE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_DISTRICT_WHITE_HOLY_SITE_UNIT_ADJUST_PROPERTY</ModifierId>
+			<Name>Key</Name>
+			<Value>WHITE_HOLY_SITE_COMBAT_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DISTRICT_WHITE_HOLY_SITE_UNIT_ADJUST_PROPERTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY</ModifierId>
+			<Name>Key</Name>
+			<Value>WHITE_HOLY_SITE_COMBAT_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY</ModifierId>
+			<Name>Max</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DISTRICT_WHITE_HOLY_SITE_PER_POPULATION_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DISTRICT_WHITE_HOLY_SITE_PER_POPULATION_YIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LE_MINE_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MODIFIER_LE_MINE_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LE_MINE_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LE_MINE_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+	</ModifierArguments>
+	<!--条件集-->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQSET_LE_CITY_HAS_DISTRICT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_LE_HAS_MINE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQSET_LE_CITY_HAS_DISTRICT</RequirementSetId>
+			<RequirementId>REQ_DISTRICT_WHITE_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_LE_HAS_MINE</RequirementSetId>
+			<RequirementId>REQ_LE_HAS_MINE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!--子条件-->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_DISTRICT_WHITE_HOLY_SITE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQ_LE_HAS_MINE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_DISTRICT_WHITE_HOLY_SITE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_WHITE_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQ_LE_HAS_MINE</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+	</RequirementArguments>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_DISTRICT_WHITE_HOLY_SITE</TraitType>
+			<ModifierId>MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DISTRICT_WHITE_HOLY_SITE</TraitType>
+			<ModifierId>MODIFIER_DISTRICT_WHITE_HOLY_SITE_PER_POPULATION_YIELD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DISTRICT_WHITE_HOLY_SITE</TraitType>
+			<ModifierId>MODIFIER_LE_MINE_FOOD</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY" Context="Preview" Text="LOC_MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY"/>
+	</ModifierStrings>
+</GameData>

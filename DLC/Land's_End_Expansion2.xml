@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_Expansion2 -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 4/3/2024 8:55:01 AM -->
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_WHITE_HOLY_SITE" Texture="MOMENT_WHITE_HOLY_SITE"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_UMBRAL_KNIGHT" Texture="MOMENT_UMBRAL_KNIGHT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_WHITE_PRUESTESS_STATUE" Texture="MOMENT_BUILDING_WHITE_PRUESTESS_STATUE"/>
+	</MomentIllustrations>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Government_Faith"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="White_Holy_Site_Gold"/>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Pamukkale_Faith"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="White_Holy_Site_Gold" Description="LOC_DISTRICT_HOLY_SITE_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_WHITE_HOLY_SITE"/>
+	</Adjacency_YieldChanges>
+	<Units_XP2>
+		<Row UnitType="UNIT_UMBRAL_KNIGHT" ResourceCost="10"/>
+	</Units_XP2>
+</GameData>

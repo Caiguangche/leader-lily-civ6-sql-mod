@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_Leader -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/15/2024 7:31:20 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_LILY" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_AGENDA_LILY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_LILY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_LILY" Name="LOC_LEADER_LILY_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_LILY" Quote="LOC_LEADER_LILY_QUOTE"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_LILY" Name="LOC_TRAIT_AGENDA_LILY_NAME" Description="LOC_TRAIT_AGENDA_LILY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LILY" Name="LOC_TRAIT_LEADER_LILY_NAME" Description="LOC_TRAIT_LEADER_LILY_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_LILY" TraitType="TRAIT_LEADER_LILY"/>
+		<Row LeaderType="LEADER_LILY" TraitType="TRAIT_UNIT_UMBRAL_KNIGHT"/>
+	</LeaderTraits>
+	<AiListTypes>
+		<Row ListType="LilyDiplomacy"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="LilyDiplomacy" AgendaType="TRAIT_AGENDA_LILY" System="DiplomaticActions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="LilyDiplomacy" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="false"/>
+		<Row ListType="LilyDiplomacy" Item="DIPLOACTION_DECLARE_FRIENDSHIP" Favored="true"/>
+	</AiFavoredItems>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_LILY" ReligionType="RELIGION_WHITE"/>
+	</FavoredReligions>
+	<Agendas>
+		<Row AgendaType="AGENDA_LILY" Name="LOC_AGENDA_LILY_NAME" Description="LOC_AGENDA_LILY_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_LILY" AgendaType="AGENDA_LILY"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_LILY" TraitType="TRAIT_AGENDA_LILY"/>
+	</AgendaTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_LILY" ForegroundImage="LEADER_LILY_LOADING_FOREGROUND" BackgroundImage="LEADER_LILY_LOADING_BACKGROUND" PlayDawnOfManAudio="0" EraText="" LeaderText="LOC_LOADING_INFO_LEADER_LILY"/>
+	</LoadingInfo>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_LILY</TraitType>
+			<ModifierId>MODIFIER_LILY_UNITS_CAPTURE_UNIT_ATTACH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_LILY</TraitType>
+			<ModifierId>MODIFIER_LILY_UNITS_HEAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_LILY</TraitType>
+			<ModifierId>MODIFIER_MODIFIER_LILY_UNITS_HEAL_AFTER_ACTION</ModifierId>
+		</Row>
+		<Row TraitType="TRAIT_AGENDA_LILY" ModifierId="AGENDA_LILY_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_LILY" ModifierId="AGENDA_LILY_DENOUNCED_FRIEND"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_CAPTURE_UNIT_ATTACH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_CAPTURE_UNIT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_UNIT_CAPTURE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_HEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_MODIFIER_LILY_UNITS_HEAL_AFTER_ACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_HEAL_AFTER_ACTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_DENOUNCED_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_CAPTURE_UNIT_ATTACH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MODIFIER_LILY_UNITS_CAPTURE_UNIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_CAPTURE_UNIT</ModifierId>
+			<Name>CanCapture</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_HEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LILY_UNITS_HEAL</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_LILY_DECLARED_FRIEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_DENOUNCED_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_DENOUNCED_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_DENOUNCED_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LILY_DENOUNCED_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_LILY_DENOUNCED_FRIEND</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_LILY_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_LILY_DENOUNCED_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameData>

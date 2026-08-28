@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_Babylon_Pack -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 4/3/2024 9:02:41 AM -->
+<GameData>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldChangeId="Mahavihara_White_Holy_Site_Faith"/>
+	</Improvement_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="Mahavihara_White_Holy_Site_Faith" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_WHITE_HOLY_SITE"/>
+	</Adjacency_YieldChanges>
+</GameData>

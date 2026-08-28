@@ -1,0 +1,51 @@
+# ModBuddy / Civilization VI generated files
+Build/
+Debug/
+Release/
+bin/
+obj/
+*.civ6mod
+*.modinfo
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+
+# Public source release: third-party media binaries are kept locally only
+Textures/**/*.dds
+Platforms/**/Audio/
+
+# Archives, backups, temporary files and personal documents
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.bak
+*.backup
+*.orig
+*.rej
+*.tmp
+*.temp
+*.swp
+*~
+*.doc
+*.docx
+*.pdf
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS noise
+.vs/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

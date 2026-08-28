@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Ender Lilies: Lily</Name>
+    <Guid>61109129-fdce-4b09-b484-4eaf3070aa22</Guid>
+    <ProjectGuid>0983459c-4e24-4d97-8411-c83535e1a25e</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Leader Lily</Teaser>
+    <Description>Add a new Civilization: Land's End.[newline]Add a new Leader: Lily.</Description>
+    <Authors>海绵宝宝很黄、欧德王</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderLilyCriteria">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_LILY,Players:Expansion1_Players::LEADER_LILY,Players:Expansion2_Players::LEADER_LILY</LeaderPlayable>
+      </Criteria><Criteria id="LeaderLilyCriteria_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_LILY</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+      </Criteria><Criteria id="LeaderLilyCriteria_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_LILY</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria>
+      <Criteria id="LE_Babylon">
+        <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+        <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      </Criteria>
+      <Criteria id="LE_SecretSocieties_EXPANSION">
+       <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Value>1</Value>
+       </ConfigurationValueMatches>
+      </Criteria>
+      </ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>LeaderLily</AssemblyName>
+    <RootNamespace>LeaderLily</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="LE_Config"><File>Data/Land's_End_Config.xml</File></UpdateDatabase><UpdateIcons id="LE_Icons"><File>Data/Land's_End_Icon.xml</File></UpdateIcons><UpdateText id="LE_Text"><File>Text/Land's_End_CNS_Text.xml</File><File>Text/Land's_End_CNT_Text.xml</File><File>Text/Land's_End_EN_Text.xml</File><File>Text/Land's_End_JP_Text.xml</File></UpdateText><UpdateArt id="LE_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="LE_Colors"><File>Data/Land's_End_Color.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="LE_Data"><File>Gameplay/SQL/01_civilization.sql</File><File>Gameplay/SQL/02_leader.sql</File><File>Gameplay/SQL/03_district.sql</File><File>Gameplay/SQL/04_unit.sql</File><File>Gameplay/SQL/05_building.sql</File><File>Gameplay/SQL/06_religion.sql</File></UpdateDatabase><UpdateIcons id="LE_Icons"><File>Data/Land's_End_Icon.xml</File></UpdateIcons><UpdateText id="LE_Text"><File>Text/Land's_End_CNS_Text.xml</File><File>Text/Land's_End_CNT_Text.xml</File><File>Text/Land's_End_EN_Text.xml</File><File>Text/Land's_End_JP_Text.xml</File></UpdateText><UpdateArt id="LE_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="LE_Colors"><File>Data/Land's_End_Color.xml</File></UpdateColors><UpdateDatabase id="LE_Babylon_Pack"><Criteria>LE_Babylon</Criteria><File>Gameplay/SQL/dlc/10_babylon_pack.sql</File></UpdateDatabase><UpdateDatabase id="LE_Expansion1"><Criteria>LeaderLilyCriteria_Expansion1</Criteria><File>Gameplay/SQL/dlc/11_expansion1.sql</File></UpdateDatabase><UpdateDatabase id="LE_Expansion2"><Criteria>LeaderLilyCriteria_Expansion2</Criteria><File>Gameplay/SQL/dlc/12_expansion2.sql</File></UpdateDatabase><UpdateDatabase id="LE_SecretSocieties"><Criteria>LE_SecretSocieties_EXPANSION</Criteria><File>Gameplay/SQL/dlc/13_secret_societies.sql</File></UpdateDatabase><UpdateAudio id="LE_Audio"><File>Platforms/Windows/Audio/LAND_S_END_Audio.ini</File></UpdateAudio></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Gameplay\SQL\01_civilization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\02_leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\03_district.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\04_unit.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\05_building.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\06_religion.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\dlc\10_babylon_pack.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\dlc\11_expansion1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\dlc\12_expansion2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\SQL\dlc\13_secret_societies.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <None Include="LeaderLily.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Gameplay\" />
+    <Folder Include="Gameplay\SQL\" />
+    <Folder Include="Gameplay\SQL\dlc\" />
+    <Content Include="Data\Land%27s_End_Building.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Land%27s_End_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Land%27s_End_Color.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Land%27s_End_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Land%27s_End_District.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Land%27s_End_Icon.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Land%27s_End_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Land%27s_End_Religion.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Land%27s_End_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DLC\Land%27s_End_Babylon_Pack.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DLC\Land%27s_End_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DLC\Land%27s_End_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DLC\Land%27s_End_SecretSocieties.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\135236396.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\208201364.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\219938364.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\315294333.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\408562082.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\551372086.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\675448124.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\939375054.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\943035906.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LAND_S_END.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LAND_S_END.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LAND_S_END_Audio.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\PluginInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\SoundbanksInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Land%27s_End_CNS_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Land%27s_End_CNT_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Land%27s_End_EN_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Land%27s_End_JP_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="DLC" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

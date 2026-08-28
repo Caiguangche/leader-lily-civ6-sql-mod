@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_Units -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/17/2024 11:01:17 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_UMBRAL_KNIGHT" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_UNIT_UMBRAL_KNIGHT" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_UNIT_UMBRAL_KNIGHT" Name="LOC_TRAIT_UNIT_UMBRAL_KNIGHT_NAME" Description="LOC_TRAIT_UNIT_UMBRAL_KNIGHT_DESCRIPTION"/>
+	</Traits>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_UMBRAL_KNIGHT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UMBRAL_KNIGHT" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_UMBRAL_KNIGHT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_UMBRAL_KNIGHT" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_UMBRAL_KNIGHT" ReplacesUnitType="UNIT_SWORDSMAN"/>
+	</UnitReplaces>
+	<TypeTags>
+		<Row Type="UNIT_UMBRAL_KNIGHT" Tag="CLASS_MELEE"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_UMBRAL_KNIGHT" Cost="90" TraitType="TRAIT_UNIT_UMBRAL_KNIGHT" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="40" StrategicResource="RESOURCE_IRON" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_UMBRAL_KNIGHT_NAME" Description="LOC_UNIT_UMBRAL_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_IRON_WORKING"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_UMBRAL_KNIGHT" UpgradeUnit="UNIT_MAN_AT_ARMS"/>
+	</UnitUpgrades>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_UNIT_UMBRAL_KNIGHT</TraitType>
+			<ModifierId>MODIFIER_UNIT_UMBRAL_KNIGHT_IGNORE_TERRAIN_COST_ATTACH</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_UNIT_UMBRAL_KNIGHT_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_UNIT_UMBRAL_KNIGHT_IGNORE_TERRAIN_COST_ATTACH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQSET_UNIT_UMBRAL_KNIGHT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_UNIT_UMBRAL_KNIGHT_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_UNIT_UMBRAL_KNIGHT_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_UNIT_UMBRAL_KNIGHT_IGNORE_TERRAIN_COST_ATTACH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MODIFIER_UNIT_UMBRAL_KNIGHT_IGNORE_TERRAIN_COST</Value>
+		</Row>
+	</ModifierArguments>
+	<!--条件集-->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQSET_UNIT_UMBRAL_KNIGHT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQSET_UNIT_UMBRAL_KNIGHT</RequirementSetId>
+			<RequirementId>REQ_UNIT_UMBRAL_KNIGHT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!--子条件-->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_UNIT_UMBRAL_KNIGHT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_UNIT_UMBRAL_KNIGHT</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_UMBRAL_KNIGHT</Value>
+		</Row>
+	</RequirementArguments>
+</GameData> 

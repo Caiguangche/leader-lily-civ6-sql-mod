@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_Civilization -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/10/2024 9:55:23 AM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_LAND_S_END" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_LAND_S_END" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" Name="LOC_CIVILIZATION_LAND_S_END_NAME" Description="LOC_CIVILIZATION_LAND_S_END_DESCRIPTION" Adjective="LOC_CIVILIZATION_LAND_S_END_ADJECTIVE" RandomCityNameDepth="1" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" CapitalName="LOC_CITY_NAME_WHITE_PARISH"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_LAND_S_END" Name="LOC_TRAIT_CIVILIZATION_LAND_S_END_NAME" Description="LOC_TRAIT_CIVILIZATION_LAND_S_END_DESCRIPTION"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" TraitType="TRAIT_CIVILIZATION_LAND_S_END"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" TraitType="TRAIT_DISTRICT_WHITE_HOLY_SITE"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" TraitType="TRAIT_BUILDING_WHITE_PRUESTESS_STATUE"/>
+	</CivilizationTraits>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_WHITE_PARISH"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_CLIFFSIDE_HAMLET"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_WITCH_S_THICKET"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_CATACOMBS"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_TWIN_SPIRES"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_RUINED_CASTLE"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_STOCKADE"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_VERBOTEN_DOMAIN"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_ABYSS"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_LAND_S_EDGE"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_BLIGHTED_HEART"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_CELLAR"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_CATHEDRAL_CLOISTER"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_SAINT_S_PASSAGE"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_CROSSROADS"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_DRYAD_LAKE"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_COLLAPSED_SHACK"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_BRIDGEHEAD"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_WITCH_S_HERMITAGE"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CityName="LOC_CITY_NAME_COVEN_HALLS"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CitizenName="LOC_CITIZEN_NAME_SIEGRID" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CitizenName="LOC_CITIZEN_NAME_GERROD"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CitizenName="LOC_CITIZEN_NAME_SILVA" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CitizenName="LOC_CITIZEN_NAME_JULIUS"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CitizenName="LOC_CITIZEN_NAME_ULV"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CitizenName="LOC_CITIZEN_NAME_ELEINE" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CitizenName="LOC_CITIZEN_NAME_HOENIR"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" CitizenName="LOC_CITIZEN_NAME_FADEN"/>
+	</CivilizationCitizenNames>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" ResourceType="RESOURCE_IRON" Tier="2"/>
+	</StartBiasResources>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_LAND_S_END</TraitType>
+			<ModifierId>MODIFIER_LAND_S_END_UNITS_STRENGTH_REDUCTION_FOR_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_LAND_S_END</TraitType>
+			<ModifierId>MODIFIER_LAND_S_END_CAPTURED_CITY_EUREKA</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_LAND_S_END</TraitType>
+			<ModifierId>MODIFIER_LAND_S_END_CAPTURED_CITY_INSPIRATION</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_UNITS_STRENGTH_REDUCTION_FOR_DAMAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_STRENGTH_REDUCTION_FOR_DAMAGE_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_CAPTURED_CITY_EUREKA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_EUREKA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_CAPTURED_CITY_INSPIRATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_INSPIRATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_UNITS_STRENGTH_REDUCTION_FOR_DAMAGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_CAPTURED_CITY_EUREKA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MODIFIER_LAND_S_END_EUREKA</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_EUREKA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_EUREKA</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_CAPTURED_CITY_INSPIRATION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MODIFIER_LAND_S_END_INSPIRATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_INSPIRATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LAND_S_END_INSPIRATION</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_Expansion1 -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 4/3/2024 8:54:37 AM -->
+<GameData>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_WHITE_HOLY_SITE" YieldChangeId="Government_Faith"/>
+	</District_Adjacencies>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_WHITE_HOLY_SITE" Texture="MOMENT_WHITE_HOLY_SITE"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_UMBRAL_KNIGHT" Texture="MOMENT_UMBRAL_KNIGHT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_WHITE_PRUESTESS_STATUE" Texture="MOMENT_BUILDING_WHITE_PRUESTESS_STATUE"/>
+	</MomentIllustrations>
+</GameData>

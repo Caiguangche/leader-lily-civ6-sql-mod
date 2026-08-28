@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_EN_Text -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/17/2024 7:27:10 PM -->
+<GameData>
+	<LocalizedText>
+				<!-- 文明 -->
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_NAME" Language="en_US">
+			<Text>Land's End</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_DESCRIPTION" Language="en_US">
+			<Text>Land's End</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_ADJECTIVE" Language="en_US">
+			<Text>Land's End</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_S_END_NAME" Language="en_US">
+			<Text>Blight</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_S_END_DESCRIPTION" Language="en_US">
+    		<Text>Units do not lose [ICON_STRENGTH] Combat Strength when damaged; each city provides a random [ICON_TECHBOOSTED] Eureka and [ICON_CIVICBOOSTED] Inspiration.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHITE_PARISH" Language="en_US">
+			<Text>White Parish</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLIFFSIDE_HAMLET" Language="en_US">
+			<Text>Cliffside Hamlet</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WITCH_S_THICKET" Language="en_US">
+			<Text>Witch's Thicket</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CATACOMBS" Language="en_US">
+			<Text>Catacombs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TWIN_SPIRES" Language="en_US">
+			<Text>Twin Spires</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STOCKADE" Language="en_US">
+			<Text>Stockade</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUINED_CASTLE" Language="en_US">
+			<Text>Ruined Castle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VERBOTEN_DOMAIN" Language="en_US">
+			<Text>Verboten Domain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABYSS" Language="en_US">
+			<Text>Abyss</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAND_S_EDGE" Language="en_US">
+			<Text>Land's Edge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLIGHTED_HEART" Language="en_US">
+			<Text>Blighted Heart</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CELLAR" Language="en_US">
+			<Text>Cellar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CATHEDRAL_CLOISTER" Language="en_US">
+			<Text>Cathedral Cloister</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAINT_S_PASSAGE" Language="en_US">
+			<Text>Saint's Passage</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROSSROADS" Language="en_US">
+			<Text>Crossroads</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRYAD_LAKE" Language="en_US">
+			<Text>Dryad Lake</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COLLAPSED_SHACK" Language="en_US">
+			<Text>Collapsed Shack</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIDGEHEAD" Language="en_US">
+			<Text>Bridgehead</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WITCH_S_HERMITAGE" Language="en_US">
+			<Text>Witch's Hermitage</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COVEN_HALLS" Language="en_US">
+			<Text>Coven Halls</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_SIEGRID" Language="en_US">
+			<Text>Siegrid</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_GERROD" Language="en_US">
+			<Text>Gerrod</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_SILVA" Language="en_US">
+			<Text>Silva</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_JULIUS" Language="en_US">
+			<Text>Julius</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_ULV" Language="en_US">
+			<Text>Ulv</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_ELEINE" Language="en_US">
+			<Text>Eleine</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_HOENIR" Language="en_US">
+			<Text>Hoenir</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_FADEN" Language="en_US">
+			<Text>Faden</Text>
+		</Row>
+		<!-- 领袖 -->
+		<Row Tag="LOC_LEADER_LILY_NAME" Language="en_US">
+			<Text>Lily</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LILY_NAME" Language="en_US">
+			<Text>White Priestess</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LILY_DESCRIPTION" Language="en_US">
+    		<Text>Units automatically heal and gain +5 HP; chance to capture enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_LILY" Language="en_US">
+			<Text>
+				Amidst a Collapsed world, her words echo out,"Thank you for finding your way to me.
+			</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LILY_QUOTE" Language="en_US">
+   			<Text>Thank you for finding your way to me</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LILY_NAME" Language="en_US">
+			<Text>Alliance</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LILY_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations willing to build long-term alliances. Dislikes civilizations that denounce or attack her friends or allies.</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY" Language="en_US">
+			<Text>(You are my friend)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY" Language="en_US">
+			<Text>(Please treat my friends well)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LILY_DECLARED_FRIEND" Language="en_US">
+			<Text>Lily likes declaring friendship</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LILY_DENOUNCED_FRIEND" Language="en_US">
+			<Text>Lily dislikes you denouncing her friends</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_LILY_ANY" Language="en_US">
+			<Text>Hello.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LILY_ANY" Language="en_US">
+			<Text>It's a pity we have become enemies.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>I declare war on you.</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LILY_ANY" Language="en_US">
+			<Text>Okay.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LILY_ANY" Language="en_US">
+			<Text>It's not the right time now.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>Can we be friends?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>What a pity.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_LILY_ANY" Language="en_US">
+			<Text>I lost...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LILY_ANY" Language="en_US">
+			<Text>Welcome to the Borderlands.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LILY_ANY" Language="en_US">
+			<Text>Sorry, it's not convenient to receive guests now.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>My delegation brought you gifts.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LILY_ANY" Language="en_US">
+			<Text>I'm very angry!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>I hate you! [NEWLINE] (Denouncing you)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LILY_ANY" Language="en_US">
+			<Text>Nice to meet you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LILY_ANY" Language="en_US">
+			<Text>How are things on your side?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_LILY_ANY" Language="en_US">
+			<Text>Good morning.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_LILY_ANY" Language="en_US">
+			<Text>You did a good thing.</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY" Language="en_US">
+			<Text>(Lily's favor towards you has increased)</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_LILY_ANY" Language="en_US">
+			<Text>Your behavior is despicable...</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY" Language="en_US">
+			<Text>(Lily's favor towards you has decreased)</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>We are now allies.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LILY_ANY" Language="en_US">
+			<Text>Let's end this meaningless war.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LILY_ANY" Language="en_US">
+			<Text>I will continue the war.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LILY_ANY" Language="en_US">
+			<Text>Let's end this meaningless war.</Text>
+		</Row>
+		<!-- 区域 -->
+		<Row Tag="LOC_DISTRICT_WHITE_HOLY_SITE_NAME" Language="en_US">
+			<Text>White Holy Site</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION" Language="en_US">
+    		<Text>
+				Land's End unique religious activity area. Replaces Holy Site with lower construction cost.[NEWLINE] Grants +1 [ICON_STRENGTH] Combat Strength to all units, up to a maximum of 10 [ICON_STRENGTH]. Each population provides +0.5 [Icon_Faith] Faith, Mine +1 [Icon_FOOD] Food.
+			</Text>
+		</Row>
+		<Replace Tag="LOC_MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY" Language="en_US">
+			<Text>+{Property}[ICON_STRENGTH]from White Holy Site</Text>
+		</Replace>
+		<!-- 建筑 -->
+		<Row Tag="LOC_BUILDING_WHITE_PRUESTESS_STATUE_NAME" Language="en_US">
+			<Text>White Priestess Statue</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WHITE_PRUESTESS_STATUE_DESCRIPTION" Language="en_US">
+   			<Text>
+				Land's End unique building, replaces Temple.[NEWLINE]Grants +2 to all yields ([Icon_CULTURE], [Icon_FOOD], [Icon_PRODUCTION], [Icon_SCIENCE], [Icon_Faith], [Icon_GOLD]).[NEWLINE]Other districts within the city ([ICON_DISTRICT_CAMPUS], [ICON_DISTRICT_THEATER], [ICON_DISTRICT_INDUSTRIAL_ZONE], [ICON_DISTRICT_COMMERCIAL_HUB],[ICON_DISTRICT_HARBOR]) provide +2 corresponding yields ([Icon_SCIENCE], [Icon_CULTURE], [Icon_PRODUCTION], [Icon_GOLD]) to the city center.
+			</Text>
+		</Row>
+		<!-- 单位 -->
+		<Row Tag="LOC_UNIT_UMBRAL_KNIGHT_NAME" Language="en_US">
+			<Text>Umbral Knight</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UMBRAL_KNIGHT_DESCRIPTION" Language="en_US">
+    		<Text>
+				Lily's guardian, replaces Swordsman. Has 40 [ICON_STRENGTH] Combat Strength. Ignores terrain and feature [ICON_MOVEMENT] movement costs.
+			</Text>
+		</Row>
+		<!--   Temple of Prayer  -->
+		<Row Tag="LOC_BELIEF_PRIESTESS_WISH_NAME" Language="en_US">
+			<Text>Priestess'Wish</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_PRIESTESS_WISH_DESCRIPTION" Language="en_US">
+			<Text>Units heal +5 hit points. City Loyalty does not decrease.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

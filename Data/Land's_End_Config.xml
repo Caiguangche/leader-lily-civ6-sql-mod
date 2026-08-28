@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_Config -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/15/2024 8:10:27 PM -->
+<GameData>
+	<Players>
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_LAND_S_END_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_LAND_S_END" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_LAND_S_END_NAME" CivilizationIcon="ICON_CIVILIZATION_LAND_S_END" CivilizationName="LOC_CIVILIZATION_LAND_S_END_NAME" CivilizationType="CIVILIZATION_LAND_S_END" LeaderAbilityDescription="LOC_TRAIT_LEADER_LILY_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_LILY" LeaderAbilityName="LOC_TRAIT_LEADER_LILY_NAME" LeaderIcon="ICON_LEADER_LILY" LeaderName="LOC_LEADER_LILY_NAME" LeaderType="LEADER_LILY" Portrait="LEADER_LILY_FOREGROUND" PortraitBackground="LEADER_LILY_BACKGROUND"/>
+		<!-- Expansion 1 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_LAND_S_END_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_LAND_S_END" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_LAND_S_END_NAME" CivilizationIcon="ICON_CIVILIZATION_LAND_S_END" CivilizationName="LOC_CIVILIZATION_LAND_S_END_NAME" CivilizationType="CIVILIZATION_LAND_S_END" LeaderAbilityDescription="LOC_TRAIT_LEADER_LILY_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_LILY" LeaderAbilityName="LOC_TRAIT_LEADER_LILY_NAME" LeaderIcon="ICON_LEADER_LILY" LeaderName="LOC_LEADER_LILY_NAME" LeaderType="LEADER_LILY" Portrait="LEADER_LILY_FOREGROUND" PortraitBackground="LEADER_LILY_BACKGROUND" Domain="Players:Expansion1_Players"/>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_LAND_S_END_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_LAND_S_END" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_LAND_S_END_NAME" CivilizationIcon="ICON_CIVILIZATION_LAND_S_END" CivilizationName="LOC_CIVILIZATION_LAND_S_END_NAME" CivilizationType="CIVILIZATION_LAND_S_END" LeaderAbilityDescription="LOC_TRAIT_LEADER_LILY_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_LILY" LeaderAbilityName="LOC_TRAIT_LEADER_LILY_NAME" LeaderIcon="ICON_LEADER_LILY" LeaderName="LOC_LEADER_LILY_NAME" LeaderType="LEADER_LILY" Portrait="LEADER_LILY_FOREGROUND" PortraitBackground="LEADER_LILY_BACKGROUND" Domain="Players:Expansion2_Players"/>
+	</Players>
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="DISTRICT_WHITE_HOLY_SITE" Name="LOC_DISTRICT_WHITE_HOLY_SITE_NAME" Description="LOC_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION" Icon="ICON_DISTRICT_WHITE_HOLY_SITE" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="UNIT_UMBRAL_KNIGHT" Name="LOC_UNIT_UMBRAL_KNIGHT_NAME" Description="LOC_UNIT_UMBRAL_KNIGHT_DESCRIPTION" Icon="ICON_UNIT_UMBRAL_KNIGHT" SortIndex="20"/>
+		<!--<Row CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="UNIT_BALE" Name="LOC_UNIT_BALE_NAME" Description="LOC_UNIT_BALE_DESCRIPTION" Icon="ICON_UNIT_BALE" SortIndex="30"/>-->
+		<Row CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="BUILDING_WHITE_PRUESTESS_STATUE" Name="LOC_BUILDING_WHITE_PRUESTESS_STATUE_NAME" Description="LOC_BUILDING_WHITE_PRUESTESS_STATUE_DESCRIPTION" Icon="ICON_BUILDING_WHITE_PRUESTESS_STATUE" SortIndex="40"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="DISTRICT_WHITE_HOLY_SITE" Name="LOC_DISTRICT_WHITE_HOLY_SITE_NAME" Description="LOC_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION" Icon="ICON_DISTRICT_WHITE_HOLY_SITE" SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="UNIT_UMBRAL_KNIGHT" Name="LOC_UNIT_UMBRAL_KNIGHT_NAME" Description="LOC_UNIT_UMBRAL_KNIGHT_DESCRIPTION" Icon="ICON_UNIT_UMBRAL_KNIGHT" SortIndex="20"/>
+		<!--<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="UNIT_BALE" Name="LOC_UNIT_BALE_NAME" Description="LOC_UNIT_BALE_DESCRIPTION" Icon="ICON_UNIT_BALE" SortIndex="30"/>-->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="BUILDING_WHITE_PRUESTESS_STATUE" Name="LOC_BUILDING_WHITE_PRUESTESS_STATUE_NAME" Description="LOC_BUILDING_WHITE_PRUESTESS_STATUE_DESCRIPTION" Icon="ICON_BUILDING_WHITE_PRUESTESS_STATUE" SortIndex="40"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="DISTRICT_WHITE_HOLY_SITE" Name="LOC_DISTRICT_WHITE_HOLY_SITE_NAME" Description="LOC_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION" Icon="ICON_DISTRICT_WHITE_HOLY_SITE" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="UNIT_UMBRAL_KNIGHT" Name="LOC_UNIT_UMBRAL_KNIGHT_NAME" Description="LOC_UNIT_UMBRAL_KNIGHT_DESCRIPTION" Icon="ICON_UNIT_UMBRAL_KNIGHT" SortIndex="20"/>
+		<!--<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="UNIT_BALE" Name="LOC_UNIT_BALE_NAME" Description="LOC_UNIT_BALE_DESCRIPTION" Icon="ICON_UNIT_BALE" SortIndex="30"/>-->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_LAND_S_END" LeaderType="LEADER_LILY" Type="BUILDING_WHITE_PRUESTESS_STATUE" Name="LOC_BUILDING_WHITE_PRUESTESS_STATUE_NAME" Description="LOC_BUILDING_WHITE_PRUESTESS_STATUE_DESCRIPTION" Icon="ICON_BUILDING_WHITE_PRUESTESS_STATUE" SortIndex="40"/>
+	</PlayerItems>
+</GameData>

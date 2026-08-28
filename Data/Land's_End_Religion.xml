@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BELIEF_PRIESTESS_WISH" Kind="KIND_BELIEF"/>
+		<Row Type="RELIGION_WHITE" Kind="KIND_RELIGION"/>
+	</Types>
+	<Religions>
+		<Row>
+			<ReligionType>RELIGION_WHITE</ReligionType>
+			<Name>LOC_RELIGION_WHITE</Name>
+			<IconString>Wh</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_WHITE</Color>
+		</Row>
+	</Religions>
+	<Beliefs>
+		<Row BeliefType="BELIEF_PRIESTESS_WISH" Name="LOC_BELIEF_PRIESTESS_WISH_NAME" Description="LOC_BELIEF_PRIESTESS_WISH_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	</Beliefs>
+		<BeliefModifiers>
+			<Row>
+				<BeliefType>BELIEF_PRIESTESS_WISH</BeliefType>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_UNITS_HEAL</ModifierId>
+			</Row>
+			<Row>
+				<BeliefType>BELIEF_PRIESTESS_WISH</BeliefType>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_CITY_LOYAL_ATTACH</ModifierId>
+			</Row>
+		</BeliefModifiers>
+		<Modifiers>
+			<Row>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_UNITS_HEAL</ModifierId>
+				<ModifierType>MODIFIER_ALL_UNITS_ADJUST_HEAL_PER_TURN</ModifierType>
+				<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+			</Row>
+			<Row>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_CITY_LOYAL_ATTACH</ModifierId>
+				<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+				<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+			</Row>
+			<Row>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_CITY_LOYAL</ModifierId>
+				<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALWAYS_LOYAL</ModifierType>
+			</Row>
+		</Modifiers>
+		<ModifierArguments>
+			<Row>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_UNITS_HEAL</ModifierId>
+				<Name>Amount</Name>
+				<Value>5</Value>
+			</Row>
+			<Row>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_UNITS_HEAL</ModifierId>
+				<Name>Type</Name>
+				<Value>ALL</Value>
+			</Row>
+			<Row>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_CITY_LOYAL_ATTACH</ModifierId>
+				<Name>ModifierId</Name>
+				<Value>MODIFIER_BELIEF_PRIESTESS_WISH_CITY_LOYAL</Value>
+			</Row>
+			<Row>
+				<ModifierId>MODIFIER_BELIEF_PRIESTESS_WISH_CITY_LOYAL</ModifierId>
+				<Name>AlwaysLoyal</Name>
+				<Value>1</Value>
+			</Row>
+		</ModifierArguments>
+</GameData>

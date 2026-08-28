@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_CNT_Text -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/17/2024 7:26:11 PM -->
+<GameData>
+	<LocalizedText>
+    <!-- 文明 -->
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_NAME" Language="zh_Hant_HK">
+			<Text>邊陲之國</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>邊陲之國</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LAND_S_END_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>邊陲之國</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_S_END_NAME" Language="zh_Hant_HK">
+			<Text>污穢</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_S_END_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位受到傷害[ICON_STRENGTH]戰鬥力不會減少；每座城市會提供隨機的一項[ICON_TECHBOOSTED]尤里卡和[ICON_CIVICBOOSTED]鼓舞。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHITE_PARISH" Language="zh_Hant_HK">
+			<Text>白教區</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLIFFSIDE_HAMLET" Language="zh_Hant_HK">
+			<Text>懸崖村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WITCH_S_THICKET" Language="zh_Hant_HK">
+			<Text>魔女森林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CATACOMBS" Language="zh_Hant_HK">
+			<Text>地下墓穴</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TWIN_SPIRES" Language="zh_Hant_HK">
+			<Text>雙生堡壘</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STOCKADE" Language="zh_Hant_HK">
+			<Text>地牢</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUINED_CASTLE" Language="zh_Hant_HK">
+			<Text>都城廢墟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VERBOTEN_DOMAIN" Language="zh_Hant_HK">
+			<Text>禁區</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABYSS" Language="zh_Hant_HK">
+			<Text>深淵</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAND_S_EDGE" Language="zh_Hant_HK">
+			<Text>盡頭之地</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLIGHTED_HEART" Language="zh_Hant_HK">
+			<Text>污穢之中</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CELLAR" Language="zh_Hant_HK">
+			<Text>地下室</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CATHEDRAL_CLOISTER" Language="zh_Hant_HK">
+			<Text>圣堂走廊</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAINT_S_PASSAGE" Language="zh_Hant_HK">
+			<Text>圣者之路</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROSSROADS" Language="zh_Hant_HK">
+			<Text>分岔路</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRYAD_LAKE" Language="zh_Hant_HK">
+			<Text>树妖之湖</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COLLAPSED_SHACK" Language="zh_Hant_HK">
+			<Text>倒塌小屋</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIDGEHEAD" Language="zh_Hant_HK">
+			<Text>桥头</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WITCH_S_HERMITAGE" Language="zh_Hant_HK">
+			<Text>魔女的房间</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COVEN_HALLS" Language="zh_Hant_HK">
+			<Text>魔术协会走廊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_SIEGRID" Language="zh_Hant_HK">
+			<Text>西莉德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_GERROD" Language="zh_Hant_HK">
+			<Text>格羅特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_SILVA" Language="zh_Hant_HK">
+			<Text>西莉婭</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_JULIUS" Language="zh_Hant_HK">
+			<Text>尤利烏斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_ULV" Language="zh_Hant_HK">
+			<Text>狼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_ELEINE" Language="zh_Hant_HK">
+			<Text>伊萊恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_HOENIR" Language="zh_Hant_HK">
+			<Text>海尼爾</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_FADEN" Language="zh_Hant_HK">
+			<Text>法登</Text>
+		</Row>
+<!-- 领袖 -->
+		<Row Tag="LOC_LEADER_LILY_NAME" Language="zh_Hant_HK">
+			<Text>莉莉</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LILY_NAME" Language="zh_Hant_HK">
+			<Text>白巫女</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LILY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位自動恢復生命值，並且+5點；有機率俘獲敵方單位。</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_LILY" Language="zh_Hant_HK">
+			<Text>在崩潰的世界裏，少女説了，“感謝你一直陪伴我”</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LILY_QUOTE" Language="zh_Hant_HK">
+			<Text>感谢你一直陪伴着我</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LILY_NAME" Language="zh_Hant_HK">
+			<Text>同盟</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LILY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡願意建立長期聯盟關係的文明。討厭譴責或攻擊自己朋友或盟友的文明。</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您是我的朋友）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（請和我的朋友好好相處）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LILY_DECLARED_FRIEND" Language="zh_Hant_HK">
+			<Text>莉莉喜歡宣佈友好</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LILY_DENOUNCED_FRIEND" Language="zh_Hant_HK">
+			<Text>莉莉討厭您譴責她的朋友</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>你好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>很可惜我們成為敵人。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>我向你宣戰。</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>好。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>現在還不是時候。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>可以和我成為朋友嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>謝謝。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>真可惜。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>我輸了...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>歡迎來到邊陲之國。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>抱歉，現在不方便接待客人。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>我的代表團給你帶了禮物。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>我很生氣！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>我討厭你！[NEWLINE]（譴責你）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>很高興遇見你。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>你們那邊的情況如何？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>早上好。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>你做了好事。</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_LILY_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（莉莉對您的好感增加了）</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>你的行為很可惡……</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_LILY_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（莉莉對您的好感減少了）</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>我們成為盟友了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>讓我們停止無意義的戰爭。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>我還要繼續戰爭。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LILY_ANY" Language="zh_Hant_HK">
+			<Text>讓我們停止無意義的戰爭。</Text>
+		</Row>
+		<!-- 区域 -->
+		<Row Tag="LOC_DISTRICT_WHITE_HOLY_SITE_NAME" Language="zh_Hant_HK">
+			<Text>白聖地</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WHITE_HOLY_SITE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				邊陲之國特色宗教活動區域。取代聖地，建造費用更低。
+				[NEWLINE]為所有單位+1[ICON_STRENGTH]戰鬥力，最多為10[ICON_STRENGTH]。每個人口+0.5[Icon_Faith]信仰值。礦山+1[Icon_FOOD]食物。
+			</Text>
+		</Row>
+		<Replace Tag="LOC_MODIFIER_LILY_UNITS_STRENGTH_ADJUST_FROM_PROPERTY" Language="zh_Hant_HK">
+			<Text>+{Property}[ICON_STRENGTH]來自白聖地</Text>
+		</Replace>
+		<!-- 建筑 -->
+		<Row Tag="LOC_BUILDING_WHITE_PRUESTESS_STATUE_NAME" Language="zh_Hant_HK">
+			<Text>白巫女的雕像</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WHITE_PRUESTESS_STATUE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				邊陲之國特色建築，取代寺廟。
+				[NEWLINE]所有產出+2（[Icon_CULTURE]、[Icon_FOOD]、[Icon_PRODUCTION]、[Icon_SCIENCE]、[Icon_Faith]、[Icon_GOLD]）。
+				[NEWLINE]城市的其他区域（[ICON_DISTRICT_CAMPUS]、[ICON_DISTRICT_THEATER]、[ICON_DISTRICT_INDUSTRIAL_ZONE]、[ICON_DISTRICT_COMMERCIAL_HUB]、[ICON_DISTRICT_HARBOR]），为市中心提供+2相应产出（[Icon_SCIENCE]、[Icon_CULTURE]、[Icon_PRODUCTION]、[Icon_GOLD]）
+			</Text>
+		</Row>
+		<!-- 单位 -->
+		<Row Tag="LOC_UNIT_UMBRAL_KNIGHT_NAME" Language="zh_Hant_HK">
+			<Text>黑色騎士</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UMBRAL_KNIGHT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				莉莉的守護者，取代劍客。擁有40[ICON_STRENGTH]戰鬥力。無視地形地貌的[ICON_MOVEMENT]移動力減益。
+			</Text>
+		</Row>
+		<!--   萬神殿  -->
+		<Row Tag="LOC_BELIEF_PRIESTESS_WISH_NAME" Language="zh_Hant_HK">
+			<Text>白巫女的祈望</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_PRIESTESS_WISH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位+5點生命值恢復。城市的忠誠度不會減少。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

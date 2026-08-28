@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Land's_End_Color -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/17/2024 7:58:59 PM -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_LILY_PRIMARY</Type>
+			<Color>150,150,150,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_LILY_PRIMARY1</Type>
+			<Color>140,140,140,125</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_LILY_PRIMARY2</Type>
+			<Color>160,160,160,200</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_LILY_PRIMARY3</Type>
+			<Color>155,155,155,175</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_LILY_SECONDARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_WHITE</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_LILY</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_LILY_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_LILY_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_PLAYER_LEADER_LILY_PRIMARY1</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_PLAYER_LEADER_LILY_SECONDARY</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_PLAYER_LEADER_LILY_PRIMARY2</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_PLAYER_LEADER_LILY_SECONDARY</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_LILY_PRIMARY3</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_PLAYER_LEADER_LILY_SECONDARY</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>
